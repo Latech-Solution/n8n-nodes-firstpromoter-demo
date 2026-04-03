@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-firstpromoter-demo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An n8n community node for integrating with FirstPromoter APIs.",
   "license": "MIT",
   "homepage": "https://docs.firstpromoter.com/introduction",
