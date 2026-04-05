@@ -15,14 +15,14 @@
     "firstpromoter v2 api",
     "firstpromoter webhooks"
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "author": {
-    "name": "Prince Foli",
-    "email": "prncfoli@gmail.com"
+    "name": "developer-prncfoli",
+    "email": "developer.prncfoli@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Latech-Solution/n8n-nodes-firstpromoter-demo.git"
+    "url": "git+https://github.com/Lastech-Solutions/n8n-nodes-firstpromoter-demo.git"
   },
   "scripts": {
     "build": "n8n-node build",
@@ -51,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "@n8n/node-cli": "*",
+    "@n8n/node-cli": "^0.23.1",
     "eslint": "^9.29.0",
     "n8n-workflow": "*",
     "prettier": "3.8.1",
@@ -60,9 +60,6 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
-  },
-  "engines": {
-    "node": ">=22.18.0"
   },
   "publishConfig": {
     "access": "public"
